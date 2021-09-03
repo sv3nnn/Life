@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Registration page</title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/register.css">
+		<script type="text/javascript" src="js/register.js"></script>	
+	</head>
+	<body>
+		<section class="w">
+			<header>
+				<a href="index.html">
+					<article class="logo">
+						<img src="img/logo.png" alt="">
+					</article>
+				</a>
+				<h3>Existing member account? <a href="MemberLogin.html">login</a></h3>
+			</header>
+			<article class="registerarea">
+				<section class="reg_form">
+					<form action="" onsubmit="return check()">
+						<ul>
+							<li><label for="">First Name：</label><input type="text" class="inq" id="fname" onblur="checkfname(this)"><font color="red" id="fnamefont"></font></li>
+							<li><label for="">Last Name：</label><input type="text" class="inq" id="lname" onblur="checklname(this)"><font color="red" id="lnamefont"></font></li>
+							<li><label for="">Email：</label><input type="text" class="inq" id="email" onblur="checkemail()"><font color="red" id="emailfont"></font></li>
+							<li><label for="">Confirm Email：</label><input type="text" class="inq" id="cemail" onblur="checkemail()"><font color="red" id="cemailfont"></font></li>
+							<li><label for="">Phone Number：</label><input type="text" class="inq" id="pnumber" onblur="checkpnumber(this)"><font color="red" id="pnumberfont"></font></li>
+									
+							<li class="t"><label for="">Age：</label><input type="range" min="0" max="99" step="1" id="age" oninput="checkage()"><font id="agefont"></font></li>
+							
+							<li>
+								<label for="">Student Status：</label>
+								<input type="radio" name="yesno" value="yes" oninput="checkcost()" id="stu">Yes 
+								<input type="radio" name="yesno" value="no" oninput="checkcost()">No							
+							</li>	
+							<li>
+								<label for="">EmploymentStatus：</label>
+								<input type="radio" name="yesno1" value="yes1" oninput="checkcost()" id="els">Yes 
+								<input type="radio" name="yesno1" value="no1" oninput="checkcost()">No								
+							</li>
+							
+							<li class="ct">
+								<label for="">Must pay fee：</label>
+								<input type="radio" name="cost" value="Amonth" oninput="checkcost()" id="amonth">Amonth
+								<input type="radio" name="cost" value="Ayear" oninput="checkcost()" id="ayear">Ayear
+								<font id="cost"></font>
+							</li>	
+							
+							<li><input type="submit" value="registered member" class="btn"></li>
+							
+						</ul>
+					</form>					
+				</section>
+			</article>		
+		</section>
+	</body>
+</html>

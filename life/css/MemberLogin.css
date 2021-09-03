@@ -1,0 +1,75 @@
+header {
+	height: 100px;
+	border-bottom: 2px solid crimson;
+}
+header .logo {
+	width: 250px;
+	height: 100px;
+	background: rgba(44,58,65,0.3);
+	float: left;
+}
+header .logo img {
+	width: 250px;
+	height: 98px;
+}
+header h3 {
+	float: right;
+	margin-top: 75px;
+}
+header h3 a {
+	color: limegreen;
+}
+.registerarea {
+	height: 600px;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+}
+.registerarea .lf{
+	width: 685px;
+	height: 700px;	
+	border-right: 2px solid #000000;
+	float: left;
+}
+.registerarea .lf img {
+	width: 683px;
+	margin-top: 50px;
+}
+.registerarea .rg {
+	width: 450px;
+	height: 600px;
+	float: right;
+}
+.registerarea .rg h2 {
+	font-size: 30px;
+	margin-top: 20px;
+}
+.registerarea .rg ul {
+	margin-top: 30px;
+}
+.registerarea .rg ul li {
+	margin-bottom: 50px;
+}
+.registerarea .rg ul li label {
+	display: inline-block;
+	width: 80px;
+	text-align: right;	
+	font-size: 22px;
+}
+.registerarea .rg ul li .inp {
+	width: 240px;
+	height: 35px;
+	border: 1px solid #ccc;
+	margin-left: 40px;
+	background-color: burlywood;
+}
+.agree input {
+	vertical-align: middle;
+}
+.btn {
+	width: 300px;
+	height: 34px;
+	background-color: #32CD32;
+	margin-left: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+}

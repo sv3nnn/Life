@@ -1,0 +1,204 @@
+body {
+	background-color: #F0F8FF;	
+	background: url(../img/contact.jpg) no-repeat ;
+	background-size: cover;
+}
+header {
+	height: 100px;
+	border-bottom: 2px solid crimson;
+}
+header h1{
+	margin-left: 540px;
+	padding-top: 30px;
+	font-size: 40px;
+	color: cornflowerblue;
+}
+header .logo {
+	width: 250px;
+	height: 100px;
+	background: rgba(44,58,65,0.3);
+	float: left;
+}
+header .logo img {
+	width: 250px;
+	height: 98px;
+}
+.cap {
+	text-align: center;
+	font-size: 25px;
+	color: cadetblue;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.lf {
+	width: 580px;
+	height: 500px;
+	/* background-color: pink; */
+	float: left;
+}
+
+.rg {
+	width: 580px;
+	height: 500px;
+	/* background-color: #5F9EA0; */
+	background: rgba(95,158,160,0.7);
+	float: right;
+	border-radius: 15px;
+}
+.OurAddress {
+	width: 580px;
+	height: 240px;
+	/* background-color: burlywood; */
+	background: rgba(238,197,145,0.5);
+	border-radius: 15px;
+}
+.OurAddress ul {
+	position: relative;
+	text-align: center;
+}
+.OurAddress ul .tb {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	background-color: #32CD32;
+	margin-top: 20px;
+	margin-left: 250px;
+	background: url(../img/spirit.jpg) no-repeat -33px -349px;
+}
+.OurAddress ul .name {
+	position: absolute;
+	margin: 100px 240px;
+	font-weight: 700px;
+	font-size: 16px;
+	color: black;
+}
+.OurAddress ul .dz {
+	position: absolute;
+	margin: 140px 200px;
+	color: black;
+}
+.bott {
+	width: 580px;
+	height: 240px;
+	/* background-color: #7FFFD4; */
+	margin-top: 20px;
+}
+
+
+.emailleft {
+	position: relative;
+	width: 280px;
+	height: 240px;
+	/* background-color: #CCCCCC; */
+	background: rgba(207,207,207,0.5);
+	float: left;
+	border-radius: 15px;
+}
+.emailleft ul .tb {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	background-color: #32CD32;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: url(../img/spirit.jpg) no-repeat -33px -240px;
+}
+.emailleft ul .name {
+	position: absolute;
+	margin: 110px 109px;
+	font-weight: 700px;
+	font-size: 15px;
+	color: 	#FF7256;
+}
+.emailleft ul .dz {
+	position: absolute;
+	margin: 140px 80px;
+	color: 	#FF7256;
+	font-size: 15px;
+}
+
+
+.callright {
+	position: relative;
+	width: 280px;
+	height: 240px;
+	/* background-color: blueviolet; */
+	background: rgba(154,50,205,0.5);
+	float: right;
+	border-radius: 15px;
+}
+
+.callright ul .tb {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	background-color: #32CD32;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: url(../img/spirit.jpg) no-repeat -33px -25px;
+}
+.callright ul .name {
+	position: absolute;
+	margin: 110px 109px;
+	font-weight: 700px;
+	font-size: 15px;
+	color: #FFD700;
+}
+.callright ul .dz {
+	position: absolute;
+	margin: 140px 80px;
+	color: #FFD700;
+}
+.rg ul input {
+	border: 1px solid #000000;
+}
+
+.rg #yourname {
+	width: 275px;
+	height: 40px;
+	float: left;
+	margin-top: 50px;
+}
+.rg #youremail {
+	width: 275px;
+	height: 40px;
+	float: right;
+	margin-top: 50px;
+}
+.rg #subject {
+	width: 580px;
+	height: 40px;
+	margin-top: 50px;
+}
+.rg ul textarea {
+	margin-top: 50px;
+	outline: 0;
+	width: 580px;
+	height: 120px;
+	font-size: 20px;
+	font-weight: 700;
+	resize: none;
+}
+.rg .sub {
+	width: 180px;
+	height: 40px;
+	margin-top: 50px;
+	margin-left: 185px;
+	background-color: #FFD700;
+	font-size: 18px;
+	font-weight: 700;
+	color: #F0F8FF;
+	border: 0;
+}
+textarea:required{
+	border-right: 3px solid #aa0088;
+}
+input:required:focus,textarea:required:focus{
+	box-shadow: 0 0 3px 1px crimson;
+}
+input:optional:focus{
+	box-shadow: 0 0 3px 1px #666666;
+}

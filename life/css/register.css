@@ -1,0 +1,81 @@
+header {
+	height: 100px;
+	border-bottom: 2px solid crimson;
+}
+header .logo {
+	width: 250px;
+	height: 100px;
+	background: rgba(44,58,65,0.3);
+	float: left;
+}
+header .logo img {
+	width: 250px;
+	height: 98px;
+}
+header h3 {
+	float: right;
+	margin-top: 75px;
+}
+header h3 a {
+	color: limegreen;
+}
+.registerarea {
+	height: 700px;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+}
+.reg_form {
+	width: 800px;
+	/* background-color: pink; */
+	margin: auto;
+}
+.reg_form ul {
+	margin-top: 10px;
+}
+.reg_form ul li {
+	margin-bottom: 30px;	
+}
+.reg_form ul li label {
+	display: inline-block;
+	font-size: 20px;
+	width: 200px;
+	text-align: right;
+}
+.reg_form ul li .inq {
+	width: 240px;
+	height: 35px;
+	border: 1px solid #CCCCCC;
+}
+.btn {
+	width: 200px;
+	height: 35px;
+	background-color: #32CD32;
+	margin-left: 200px;
+}
+.t {
+	position: relative;
+}
+#agefont {
+	position: absolute;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #000000;
+	border-radius: 5px;
+	color: pink;
+	font-size: 20px;
+}
+.ct {
+	position: relative;
+}
+#cost {
+	position: absolute;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #FFD700;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 700;
+}
